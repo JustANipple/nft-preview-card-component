@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution here](https://github.com/JustANipple/nft-preview-card-component/blob/master/styles.css)
-- Live Site URL: [live site](https://justanipple.github.io/nft-preview-card-component/)
+- Live Site URL: [live site](https://justanipple.github.io/product-preview-card-component-master/)
 
 ## My process
 
