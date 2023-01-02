@@ -1,0 +1,136 @@
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+.paragraph,
+.timeLeft,
+.creatorParagraph {
+    color: hsl(215, 51%, 70%);
+}
+
+.creatorParagraph .creatorName {
+    color: hsl(0, 0%, 100%);
+}
+
+.ethPrice {
+    color: hsl(178, 100%, 50%);
+}
+
+.container {
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    max-height: max-content;
+    border-radius: 20px;
+}
+
+.inbox {
+    padding: 25px;
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ethAndTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ethAndTime p {
+    margin: 5px;
+}
+
+.ethereum,
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 35px;
+    border-radius: 100%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.creatorParagraph {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.line {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    margin: 20px 0;
+}
+
+.paragraph {
+    line-height: 30px;
+}
+
+.creatorName:link,
+.inbox a:link {
+    text-decoration-line: none;
+}
+
+.creatorName:hover,
+.title:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.imgLink:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.equilibrium:hover {
+    background-color: black;
+}
+
+.imgCont {
+    display: flex;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+}
+
+.imgLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.imgLink svg {
+    visibility: hidden;
+}
+
+.imgLink:hover svg {
+    visibility: visible;
+}
+
+.imgLink:hover {
+    background-color: hsla(178, 100%, 50%, 0.507);
+}
